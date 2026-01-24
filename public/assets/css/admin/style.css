@@ -1,0 +1,84 @@
+body {
+    background-color: #f4f7fb;
+}
+
+.sidebar {
+    min-height: 100vh;
+    background: #1e40af;
+    /* Warna Biru Asli Anda */
+    padding: 0;
+    box-shadow: 4px 0 15px rgba(0, 0, 0, 0.1);
+}
+
+/* Bagian Logo/Judul */
+.sidebar-header {
+    padding: 30px 20px;
+    text-align: center;
+    background: rgba(0, 0, 0, 0.1);
+    /* Sedikit gelap di bagian atas */
+}
+
+/* Menu Wrapper */
+.nav-menu {
+    padding: 20px 10px;
+}
+
+/* Link Menu */
+.sidebar a {
+    color: rgba(255, 255, 255, 0.8);
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    padding: 12px 20px;
+    margin-bottom: 5px;
+    border-radius: 8px;
+    /* Sudut melengkung halus */
+    transition: all 0.2s ease-in-out;
+}
+
+.sidebar a i {
+    margin-right: 12px;
+    font-size: 1.1rem;
+}
+
+/* Hover & Active (Tetap dengan gaya Anda tapi lebih smooth) */
+.sidebar a:hover {
+    background: #2563eb;
+    /* Biru terang asli Anda */
+    color: #ffffff;
+}
+
+.sidebar a.active {
+    background: rgba(255, 255, 255, 0.15);
+    color: #ffffff;
+    font-weight: 600;
+    border-left: 4px solid #ffffff;
+    /* Garis aksen di samping */
+}
+
+/* Garis Pemisah (HR) Custom */
+.sidebar hr {
+    border-top: 1px solid rgba(255, 255, 255, 0.2);
+    margin: 15px 20px;
+}
+
+/* Label Group (Opsional untuk kategori menu) */
+.menu-label {
+    font-size: 0.75rem;
+    /* text-transform: uppercase; */
+    color: rgba(255, 255, 255, 0.5);
+    padding: 10px 20px 5px;
+    letter-spacing: 1px;
+}
+
+.card {
+    border-radius: 16px;
+}
+
+.chart-wrapper {
+    position: relative;
+    height: 260px;
+    /* kontrol tinggi di sini */
+    max-width: 320px;
+    margin: 0 auto;
+}

@@ -1,0 +1,171 @@
+:root {
+    --blue: #0d6efd;
+    --red: #dc3545;
+    --yellow: #ffc107;
+    --green: #198754;
+    --dark: #212529;
+}
+
+body {
+    font-family: "Poppins", sans-serif;
+    background-color: #f8f9fa;
+    color: #333;
+}
+
+/* ================= NAVBAR ================= */
+.navbar {
+    height: 88px;
+}
+
+.navbar-brand span {
+    font-size: 22px;
+    font-weight: 700;
+    color: var(--blue);
+}
+
+.nav-link {
+    font-weight: 500;
+    font-size: 15px;
+    margin: 0 10px;
+}
+
+.btn-cta {
+    background: var(--yellow);
+    color: #000;
+    font-weight: 600;
+    border-radius: 50px;
+    padding: 10px 26px;
+}
+
+.btn-cta:hover {
+    background: #e0aa00;
+}
+
+/* ================= HERO ================= */
+.hero {
+    min-height: 620px;
+    background:
+        linear-gradient(rgba(13, 110, 253, 0.75), rgba(0, 0, 0, 0.6)),
+        url("../../images/banner.jpg");
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    color: white;
+}
+
+.hero h1 {
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 1.2;
+}
+
+.hero p {
+    font-size: 18px;
+    opacity: 0.95;
+}
+
+/* ================= FEATURE ================= */
+.feature-card {
+    background: white;
+    border-radius: 18px;
+    padding: 30px 25px;
+    text-align: center;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
+    height: 100%;
+}
+
+.feature-icon {
+    font-size: 40px;
+    margin-bottom: 15px;
+}
+
+.feature-card h5 {
+    font-weight: 600;
+    margin-bottom: 8px;
+}
+
+/* ================= SECTION ================= */
+.section {
+    padding: 80px 0;
+}
+
+.section.no-hero {
+    padding: 160px 0;
+}
+
+.section-title {
+    font-size: 32px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+.section-subtitle {
+    font-size: 16px;
+    color: #666;
+    max-width: 600px;
+    margin: auto;
+}
+
+/* ================= FORM ================= */
+.form-box {
+    background: white;
+    border-radius: 18px;
+    padding: 40px;
+    box-shadow: 0 15px 40px rgba(0, 0, 0, 0.08);
+}
+
+.form-label {
+    font-weight: 500;
+}
+
+/* ================= FLOATING WA ================= */
+.floating-wa {
+    position: fixed;
+    bottom: 25px;
+    right: 25px;
+    width: 60px;
+    height: 60px;
+    background: var(--green);
+    color: white;
+    border-radius: 50%;
+    font-size: 26px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
+    text-decoration: none;
+    z-index: 999;
+}
+
+/* ================= FOOTER ================= */
+.footer {
+    background-color: #0d6efd;
+    color: #fff;
+    padding: 60px 0 30px;
+}
+
+.footer h5 {
+    font-weight: 600;
+    margin-bottom: 15px;
+}
+
+.footer p,
+.footer a {
+    font-size: 14px;
+    color: #eaeaea;
+    text-decoration: none;
+}
+
+.footer a:hover {
+    text-decoration: underline;
+}
+
+.footer-bottom {
+    border-top: 1px solid rgba(255, 255, 255, 0.2);
+    margin-top: 30px;
+    padding-top: 20px;
+    font-size: 13px;
+    text-align: center;
+    color: #ddd;
+}
