@@ -55,7 +55,7 @@ class RegistrationController extends Controller
 
                 'foto_ktp.image'          => 'Foto KTP harus berupa gambar.',
                 'foto_kk.image'           => 'Foto KK harus berupa gambar.',
-                'foto_akta_lahir.image'           => 'Foto Akte Lahir harus berupa gambar.',
+                'foto_akta_lahir.image'           => 'Foto Akta Kelahiran harus berupa gambar.',
                 'pas_foto.image'          => 'Pas foto harus berupa gambar.',
                 'bukti_transfer.image'    => 'Bukti transfer harus berupa gambar.',
 

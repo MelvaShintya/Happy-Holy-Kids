@@ -146,7 +146,7 @@
             </div>
             
             <div class="mb-3">
-                <label class="form-label">Foto Akta Lahir</label>
+                <label class="form-label">Foto Akta Kelahiran</label>
 
                 @if (isset($data['Registration']) && $data['Registration']->foto_akta_lahir)
                     <div class="mb-2">

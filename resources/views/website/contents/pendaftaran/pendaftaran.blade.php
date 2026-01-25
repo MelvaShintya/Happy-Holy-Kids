@@ -112,7 +112,7 @@
                             </div>
 
                             <div class="mb-3">
-                                <label class="form-label">Foto Akta Lahir</label>
+                                <label class="form-label">Foto Akta Kelahiran</label>
                                 <input type="file" class="form-control" accept=".jpg,.jpeg,.png,.pdf" name="foto_akta_lahir">
                             </div>
 
