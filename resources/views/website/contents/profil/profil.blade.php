@@ -152,22 +152,38 @@
 
         <!-- GALERI -->
         <div class="container mb-5">
-            <h3 class="fw-bold text-center mb-4">Guru Berpengalaman</h3>
-            <div class="row g-3">
-                <div class="col-md-3"><img src="{{ asset('assets/images/guru/1.jpg') }}" class="img-fluid rounded-3">
-                </div>
-                <div class="col-md-3"><img src="{{ asset('assets/images/guru/2.jpg') }}" class="img-fluid rounded-3">
-                </div>
-                <div class="col-md-3"><img src="{{ asset('assets/images/guru/3.jpg') }}" class="img-fluid rounded-3">
-                </div>
-                <div class="col-md-3"><img src="{{ asset('assets/images/guru/4.jpg') }}" class="img-fluid rounded-3">
-                </div>
-                <div class="col-md-3"><img src="{{ asset('assets/images/guru/5.jpg') }}" class="img-fluid rounded-3">
-                </div>
-                <div class="col-md-3"><img src="{{ asset('assets/images/guru/6.jpeg') }}" class="img-fluid rounded-3">
-                </div>
-            </div>
+    <h3 class="fw-bold text-center mb-4">Guru Berpengalaman</h3>
+    <div class="row g-3">
+
+
+                <div class="col-md-3 text-center">
+            <img src="{{ asset('assets/images/guru/3.jpg') }}" class="img-fluid rounded-3 mb-2">
+            <p class="fw-semibold mb-0">Ibu Liani (Kepala Sekolah)</p>
         </div>
+
+        <div class="col-md-3 text-center">
+            <img src="{{ asset('assets/images/guru/2.jpg') }}" class="img-fluid rounded-3 mb-2">
+            <p class="fw-semibold mb-0">Ibu Martini (Tata Usaha)</p>
+        </div>
+
+        <div class="col-md-3 text-center">
+            <img src="{{ asset('assets/images/guru/1.jpg') }}" class="img-fluid rounded-3 mb-2">
+            <p class="fw-semibold mb-0">Ms. Nata (Administrasi)</p>
+        </div>
+
+        <div class="col-md-3 text-center">
+            <img src="{{ asset('assets/images/guru/4.jpg') }}" class="img-fluid rounded-3 mb-2">
+            <p class="fw-semibold mb-0">Ms. Sofie (Guru Playgroup)</p>
+        </div>
+
+        <div class="col-md-3 text-center">
+            <img src="{{ asset('assets/images/guru/5.jpg') }}" class="img-fluid rounded-3 mb-2">
+            <p class="fw-semibold mb-0">Ms. Lia (Guru TK A)</p>
+        </div>
+
+        <div class="col-md-3 text-center">
+            <img src="{{ asset('assets/images/guru/6.jpeg') }}" class="img-fluid rounded-3 mb-2">
+            <p class="fw-semibold mb-0">Ms. Ana (Guru TK B)</p>
 
         <!-- GALERI -->
         <div class="container mb-5">
