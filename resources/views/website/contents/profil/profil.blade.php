@@ -25,7 +25,7 @@
         <div class="container mb-5">
             <div class="row align-items-center g-4">
                 <div class="col-md-6">
-                    <img src="https://images.unsplash.com/photo-1588072432836-e10032774350"
+                    <img src="{{ asset('assets/images/profil.jpeg') }}"
                         class="img-fluid rounded-4 shadow">
                 </div>
                 <div class="col-md-6">
@@ -180,6 +180,48 @@
                 <div class="col-md-3"><img src="{{ asset('assets/images/kegiatan/3.jpg') }}" class="img-fluid rounded-3">
                 </div>
                 <div class="col-md-3"><img src="{{ asset('assets/images/kegiatan/4.jpg') }}" class="img-fluid rounded-3">
+                </div>
+            </div>
+        </div>
+
+        <div class="container mb-5">
+            <h3 class="fw-bold text-center mb-4">Foto Kegiatan Kelas PG</h3>
+            <div class="row g-3">
+                <div class="col-md-3"><img src="{{ asset('assets/images/Kelas PG/1.jpg') }}" class="img-fluid rounded-3">
+                </div>
+                <div class="col-md-3"><img src="{{ asset('assets/images/Kelas PG/2.jpg') }}" class="img-fluid rounded-3">
+                </div>
+                <div class="col-md-3"><img src="{{ asset('assets/images/Kelas PG/3.jpg') }}" class="img-fluid rounded-3">
+                </div>
+                <div class="col-md-3"><img src="{{ asset('assets/images/Kelas PG/4.jpg') }}" class="img-fluid rounded-3">
+                </div>
+            </div>
+        </div>
+
+        <div class="container mb-5">
+            <h3 class="fw-bold text-center mb-4">Foto Kegiatan Kelas TK A</h3>
+            <div class="row g-3">
+                <div class="col-md-3"><img src="{{ asset('assets/images/Kelas TK A/1.jpg') }}" class="img-fluid rounded-3">
+                </div>
+                <div class="col-md-3"><img src="{{ asset('assets/images/Kelas TK A/2.jpg') }}" class="img-fluid rounded-3">
+                </div>
+                <div class="col-md-3"><img src="{{ asset('assets/images/Kelas TK A/3.jpg') }}" class="img-fluid rounded-3">
+                </div>
+                {{-- <div class="col-md-3"><img src="{{ asset('assets/images/Kelas TK A/4.jpg') }}" class="img-fluid rounded-3">
+                </div> --}}
+            </div>
+        </div>
+
+        <div class="container mb-5">
+            <h3 class="fw-bold text-center mb-4">Foto Kegiatan Kelas TK B</h3>
+            <div class="row g-3">
+                <div class="col-md-3"><img src="{{ asset('assets/images/Kelas TK B/1.jpg') }}" class="img-fluid rounded-3">
+                </div>
+                <div class="col-md-3"><img src="{{ asset('assets/images/Kelas TK B/2.jpg') }}" class="img-fluid rounded-3">
+                </div>
+                <div class="col-md-3"><img src="{{ asset('assets/images/Kelas TK B/3.jpg') }}" class="img-fluid rounded-3">
+                </div>
+                <div class="col-md-3"><img src="{{ asset('assets/images/Kelas TK B/4.jpg') }}" class="img-fluid rounded-3">
                 </div>
             </div>
         </div>
