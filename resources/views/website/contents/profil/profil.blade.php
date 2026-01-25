@@ -25,8 +25,7 @@
         <div class="container mb-5">
             <div class="row align-items-center g-4">
                 <div class="col-md-6">
-                    <img src="{{ asset('assets/images/profil.jpeg') }}"
-                        class="img-fluid rounded-4 shadow">
+                    <img src="{{ asset('assets/images/profil.jpeg') }}" class="img-fluid rounded-4 shadow">
                 </div>
                 <div class="col-md-6">
                     <h3 class="fw-bold mb-3">Sejarah Sekolah</h3>
@@ -152,120 +151,136 @@
 
         <!-- GALERI -->
         <div class="container mb-5">
-    <h3 class="fw-bold text-center mb-4">Guru Berpengalaman</h3>
-    <div class="row g-3">
+            <h3 class="fw-bold text-center mb-4">Guru Berpengalaman</h3>
+            <div class="row g-3">
 
 
                 <div class="col-md-3 text-center">
-            <img src="{{ asset('assets/images/guru/3.jpg') }}" class="img-fluid rounded-3 mb-2">
-            <p class="fw-semibold mb-0">Ibu Liani (Kepala Sekolah)</p>
-        </div>
+                    <img src="{{ asset('assets/images/guru/3.jpg') }}" class="img-fluid rounded-3 mb-2">
+                    <p class="fw-semibold mb-0">Ibu Liani (Kepala Sekolah)</p>
+                </div>
 
-        <div class="col-md-3 text-center">
-            <img src="{{ asset('assets/images/guru/2.jpg') }}" class="img-fluid rounded-3 mb-2">
-            <p class="fw-semibold mb-0">Ibu Martini (Tata Usaha)</p>
-        </div>
+                <div class="col-md-3 text-center">
+                    <img src="{{ asset('assets/images/guru/2.jpg') }}" class="img-fluid rounded-3 mb-2">
+                    <p class="fw-semibold mb-0">Ibu Martini (Tata Usaha)</p>
+                </div>
 
-        <div class="col-md-3 text-center">
-            <img src="{{ asset('assets/images/guru/1.jpg') }}" class="img-fluid rounded-3 mb-2">
-            <p class="fw-semibold mb-0">Ms. Nata (Administrasi)</p>
-        </div>
+                <div class="col-md-3 text-center">
+                    <img src="{{ asset('assets/images/guru/1.jpg') }}" class="img-fluid rounded-3 mb-2">
+                    <p class="fw-semibold mb-0">Ms. Nata (Administrasi)</p>
+                </div>
 
-        <div class="col-md-3 text-center">
-            <img src="{{ asset('assets/images/guru/4.jpg') }}" class="img-fluid rounded-3 mb-2">
-            <p class="fw-semibold mb-0">Ms. Sofie (Guru Playgroup)</p>
-        </div>
+                <div class="col-md-3 text-center">
+                    <img src="{{ asset('assets/images/guru/4.jpg') }}" class="img-fluid rounded-3 mb-2">
+                    <p class="fw-semibold mb-0">Ms. Sofie (Guru Playgroup)</p>
+                </div>
 
-        <div class="col-md-3 text-center">
-            <img src="{{ asset('assets/images/guru/5.jpg') }}" class="img-fluid rounded-3 mb-2">
-            <p class="fw-semibold mb-0">Ms. Lia (Guru TK A)</p>
-        </div>
+                <div class="col-md-3 text-center">
+                    <img src="{{ asset('assets/images/guru/5.jpg') }}" class="img-fluid rounded-3 mb-2">
+                    <p class="fw-semibold mb-0">Ms. Lia (Guru TK A)</p>
+                </div>
 
-        <div class="col-md-3 text-center">
-            <img src="{{ asset('assets/images/guru/6.jpeg') }}" class="img-fluid rounded-3 mb-2">
-            <p class="fw-semibold mb-0">Ms. Ana (Guru TK B)</p>
+                <div class="col-md-3 text-center">
+                    <img src="{{ asset('assets/images/guru/6.jpeg') }}" class="img-fluid rounded-3 mb-2">
+                    <p class="fw-semibold mb-0">Ms. Ana (Guru TK B)</p>
 
-        <!-- GALERI -->
-        <div class="container mb-5">
-            <h3 class="fw-bold text-center mb-4">Foto Kegiatan</h3>
-            <div class="row g-3">
-                <div class="col-md-3"><img src="{{ asset('assets/images/kegiatan/1.jpg') }}" class="img-fluid rounded-3">
-                </div>
-                <div class="col-md-3"><img src="{{ asset('assets/images/kegiatan/2.jpg') }}" class="img-fluid rounded-3">
-                </div>
-                <div class="col-md-3"><img src="{{ asset('assets/images/kegiatan/3.jpg') }}" class="img-fluid rounded-3">
-                </div>
-                <div class="col-md-3"><img src="{{ asset('assets/images/kegiatan/4.jpg') }}" class="img-fluid rounded-3">
-                </div>
-            </div>
-        </div>
+                    <!-- GALERI -->
+                    <div class="container mb-5">
+                        <h3 class="fw-bold text-center mb-4">Foto Kegiatan</h3>
+                        <div class="row g-3">
+                            <div class="col-md-3"><img src="{{ asset('assets/images/kegiatan/1.jpg') }}"
+                                    class="img-fluid rounded-3">
+                            </div>
+                            <div class="col-md-3"><img src="{{ asset('assets/images/kegiatan/2.jpg') }}"
+                                    class="img-fluid rounded-3">
+                            </div>
+                            <div class="col-md-3"><img src="{{ asset('assets/images/kegiatan/3.jpg') }}"
+                                    class="img-fluid rounded-3">
+                            </div>
+                            <div class="col-md-3"><img src="{{ asset('assets/images/kegiatan/4.jpg') }}"
+                                    class="img-fluid rounded-3">
+                            </div>
+                        </div>
+                    </div>
+                    </div>
 
-        <div class="container mb-5">
-            <h3 class="fw-bold text-center mb-4">Foto Kegiatan Kelas PG</h3>
-            <div class="row g-3">
-                <div class="col-md-3"><img src="{{ asset('assets/images/Kelas PG/1.jpg') }}" class="img-fluid rounded-3">
-                </div>
-                <div class="col-md-3"><img src="{{ asset('assets/images/Kelas PG/2.jpg') }}" class="img-fluid rounded-3">
-                </div>
-                <div class="col-md-3"><img src="{{ asset('assets/images/Kelas PG/3.jpg') }}" class="img-fluid rounded-3">
-                </div>
-                <div class="col-md-3"><img src="{{ asset('assets/images/Kelas PG/4.jpg') }}" class="img-fluid rounded-3">
-                </div>
-            </div>
-        </div>
+                    <div class="container mb-5">
+                        <h3 class="fw-bold text-center mb-4">Foto Kegiatan Kelas PG</h3>
+                        <div class="row g-3">
+                            <div class="col-md-3"><img src="{{ asset('assets/images/Kelas PG/1.jpg') }}"
+                                    class="img-fluid rounded-3">
+                            </div>
+                            <div class="col-md-3"><img src="{{ asset('assets/images/Kelas PG/2.jpg') }}"
+                                    class="img-fluid rounded-3">
+                            </div>
+                            <div class="col-md-3"><img src="{{ asset('assets/images/Kelas PG/3.jpg') }}"
+                                    class="img-fluid rounded-3">
+                            </div>
+                            <div class="col-md-3"><img src="{{ asset('assets/images/Kelas PG/4.jpg') }}"
+                                    class="img-fluid rounded-3">
+                            </div>
+                        </div>
+                    </div>
 
-        <div class="container mb-5">
-            <h3 class="fw-bold text-center mb-4">Foto Kegiatan Kelas TK A</h3>
-            <div class="row g-3">
-                <div class="col-md-3"><img src="{{ asset('assets/images/Kelas TK A/1.jpg') }}" class="img-fluid rounded-3">
-                </div>
-                <div class="col-md-3"><img src="{{ asset('assets/images/Kelas TK A/2.jpg') }}" class="img-fluid rounded-3">
-                </div>
-                <div class="col-md-3"><img src="{{ asset('assets/images/Kelas TK A/3.jpg') }}" class="img-fluid rounded-3">
-                </div>
-                {{-- <div class="col-md-3"><img src="{{ asset('assets/images/Kelas TK A/4.jpg') }}" class="img-fluid rounded-3">
+                    <div class="container mb-5">
+                        <h3 class="fw-bold text-center mb-4">Foto Kegiatan Kelas TK A</h3>
+                        <div class="row g-3">
+                            <div class="col-md-3"><img src="{{ asset('assets/images/Kelas TK A/1.jpg') }}"
+                                    class="img-fluid rounded-3">
+                            </div>
+                            <div class="col-md-3"><img src="{{ asset('assets/images/Kelas TK A/2.jpg') }}"
+                                    class="img-fluid rounded-3">
+                            </div>
+                            <div class="col-md-3"><img src="{{ asset('assets/images/Kelas TK A/3.jpg') }}"
+                                    class="img-fluid rounded-3">
+                            </div>
+                            {{-- <div class="col-md-3"><img src="{{ asset('assets/images/Kelas TK A/4.jpg') }}" class="img-fluid rounded-3">
                 </div> --}}
-            </div>
-        </div>
+                        </div>
+                    </div>
 
-        <div class="container mb-5">
-            <h3 class="fw-bold text-center mb-4">Foto Kegiatan Kelas TK B</h3>
-            <div class="row g-3">
-                <div class="col-md-3"><img src="{{ asset('assets/images/Kelas TK B/1.jpg') }}" class="img-fluid rounded-3">
-                </div>
-                <div class="col-md-3"><img src="{{ asset('assets/images/Kelas TK B/2.jpg') }}" class="img-fluid rounded-3">
-                </div>
-                <div class="col-md-3"><img src="{{ asset('assets/images/Kelas TK B/3.jpg') }}" class="img-fluid rounded-3">
-                </div>
-                <div class="col-md-3"><img src="{{ asset('assets/images/Kelas TK B/4.jpg') }}" class="img-fluid rounded-3">
-                </div>
-            </div>
-        </div>
+                    <div class="container mb-5">
+                        <h3 class="fw-bold text-center mb-4">Foto Kegiatan Kelas TK B</h3>
+                        <div class="row g-3">
+                            <div class="col-md-3"><img src="{{ asset('assets/images/Kelas TK B/1.jpg') }}"
+                                    class="img-fluid rounded-3">
+                            </div>
+                            <div class="col-md-3"><img src="{{ asset('assets/images/Kelas TK B/2.jpg') }}"
+                                    class="img-fluid rounded-3">
+                            </div>
+                            <div class="col-md-3"><img src="{{ asset('assets/images/Kelas TK B/3.jpg') }}"
+                                    class="img-fluid rounded-3">
+                            </div>
+                            <div class="col-md-3"><img src="{{ asset('assets/images/Kelas TK B/4.jpg') }}"
+                                    class="img-fluid rounded-3">
+                            </div>
+                        </div>
+                    </div>
 
-        <!-- LOKASI & KONTAK -->
-        <div class="container mb-5">
-            <h3 class="fw-bold text-center mb-4">Alamat & Kontak Sekolah</h3>
+                    <!-- LOKASI & KONTAK -->
+                    <div class="container mb-5">
+                        <h3 class="fw-bold text-center mb-4">Alamat & Kontak Sekolah</h3>
 
-            <div class="row g-4">
-                <div class="col-md-7">
-                    <!-- GOOGLE MAP -->
-                    <iframe src="https://www.google.com/maps?q=Living+World+Grand+Wisata+Bekasi&output=embed" width="100%"
-                        height="350" style="border:0; border-radius:18px;" loading="lazy">
-                    </iframe>
-                </div>
+                        <div class="row g-4">
+                            <div class="col-md-7">
+                                <!-- GOOGLE MAP -->
+                                <iframe src="https://www.google.com/maps?q=Living+World+Grand+Wisata+Bekasi&output=embed"
+                                    width="100%" height="350" style="border:0; border-radius:18px;" loading="lazy">
+                                </iframe>
+                            </div>
 
-                <div class="col-md-5">
-                    <div class="feature-card text-start">
+                            <div class="col-md-5">
+                                <div class="feature-card text-start">
 
-                        <p>
-                            <strong>
-                                <i class="fa-solid fa-location-dot text-danger me-2"></i>
-                                Alamat:
-                            </strong><br>
-                            Grand Wisata, Mall Living World Lantai 3
-                        </p>
+                                    <p>
+                                        <strong>
+                                            <i class="fa-solid fa-location-dot text-danger me-2"></i>
+                                            Alamat:
+                                        </strong><br>
+                                        Grand Wisata, Mall Living World Lantai 3
+                                    </p>
 
-                        {{-- <p>
+                                    {{-- <p>
                             <strong>
                                 <i class="fa-solid fa-phone text-primary me-2"></i>
                                 Telepon:
@@ -273,28 +288,28 @@
                             021-12345678
                         </p> --}}
 
-                        <p>
-                            <strong>
-                                <i class="fa-brands fa-whatsapp text-success me-2"></i>
-                                WhatsApp:
-                            </strong><br>
-                            <a href="https://wa.me/6289644763689" target="_blank">
-                                0896-4476-3689
-                            </a>
-                        </p>
+                                    <p>
+                                        <strong>
+                                            <i class="fa-brands fa-whatsapp text-success me-2"></i>
+                                            WhatsApp:
+                                        </strong><br>
+                                        <a href="https://wa.me/6289644763689" target="_blank">
+                                            0896-4476-3689
+                                        </a>
+                                    </p>
 
-                        <p class="mb-0">
-                            <strong>
-                                <i class="fa-solid fa-envelope text-warning me-2"></i>
-                                Email:
-                            </strong><br>
-                            sekretariat.hhkgw@gmail.com
-                        </p>
+                                    <p class="mb-0">
+                                        <strong>
+                                            <i class="fa-solid fa-envelope text-warning me-2"></i>
+                                            Email:
+                                        </strong><br>
+                                        sekretariat.hhkgw@gmail.com
+                                    </p>
 
+                                </div>
+                            </div>
+                        </div>
                     </div>
-                </div>
-            </div>
-        </div>
 
     </section>
 
