@@ -23,6 +23,7 @@
         <h6 class="fw-bold">Dokumen</h6>
         <p><strong>Foto KTP Orang Tua:</strong> <a href="{{ asset('storage/' . $data['Registration']->foto_ktp) }}" target="_blank">KTP Orang Tua</a></p>
         <p><strong>Foto Kartu Keluarga:</strong> <a href="{{ asset('storage/' . $data['Registration']->foto_kk) }}" target="_blank">Kartu Keluarga</a></p>
+        <p><strong>Foto Akte Lahir:</strong> <a href="{{ asset('storage/' . $data['Registration']->foto_akte_lahir) }}" target="_blank">Akte Lahir</a></p>
         <p><strong>Pas Foto Siswa:</strong> <a href="{{ asset('storage/' . $data['Registration']->pas_foto) }}" target="_blank">Foto Siswa</a></p>
     </div>
 

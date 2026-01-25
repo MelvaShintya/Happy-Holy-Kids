@@ -111,6 +111,11 @@
                                 <input type="file" class="form-control" accept=".jpg,.jpeg,.png,.pdf" name="foto_kk">
                             </div>
 
+                            <div class="mb-3">
+                                <label class="form-label">Foto Akte Lahir</label>
+                                <input type="file" class="form-control" accept=".jpg,.jpeg,.png,.pdf" name="foto_akte_lahir">
+                            </div>
+
                             <div class="mb-4">
                                 <label class="form-label">Pas Foto Siswa</label>
                                 <input type="file" class="form-control" accept=".jpg,.jpeg,.png" name="pas_foto">

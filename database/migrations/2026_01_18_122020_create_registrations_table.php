@@ -23,6 +23,7 @@ return new class extends Migration {
 
             $table->string('foto_ktp')->nullable();         
             $table->string('foto_kk')->nullable();          
+            $table->string('foto_akte_lahir')->nullable();          
             $table->string('pas_foto')->nullable();         
             $table->string('bukti_transfer')->nullable();   
 

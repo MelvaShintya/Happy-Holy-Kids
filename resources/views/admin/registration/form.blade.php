@@ -144,6 +144,21 @@
 
                 <input type="file" class="form-control" accept=".jpg,.jpeg,.png,.pdf" name="foto_kk">
             </div>
+            
+            <div class="mb-3">
+                <label class="form-label">Foto Akte Lahir</label>
+
+                @if (isset($data['Registration']) && $data['Registration']->foto_akte_lahir)
+                    <div class="mb-2">
+                        <a href="{{ asset('storage/' . $data['Registration']->foto_akte_lahir) }}" target="_blank"
+                            class="btn btn-sm btn-outline-primary">
+                            Lihat KK
+                        </a>
+                    </div>
+                @endif
+
+                <input type="file" class="form-control" accept=".jpg,.jpeg,.png,.pdf" name="foto_akte_lahir">
+            </div>
 
             {{-- PAS FOTO --}}
             <div class="mb-3">

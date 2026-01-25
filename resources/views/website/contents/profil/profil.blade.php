@@ -113,38 +113,32 @@
         <!-- FASILITAS -->
         <div class="container mb-5">
             <h3 class="fw-bold text-center mb-4">Fasilitas Sekolah</h3>
-            {{-- <div class="row g-4">
-
-                <div class="col-md-3">
-                    <div class="feature-card text-center">
-                        <i class="fa-solid fa-school fa-2x text-primary"></i>
-                        <h6 class="fw-semibold mt-2">Ruang Kelas Nyaman</h6>
-                    </div>
-                </div>
-
-                <div class="col-md-3">
-                    <div class="feature-card text-center">
-                        <i class="fa-solid fa-puzzle-piece fa-2x text-warning"></i>
-                        <h6 class="fw-semibold mt-2">Area Bermain Edukatif</h6>
-                    </div>
-                </div>
-
-                <div class="col-md-3">
-                    <div class="feature-card text-center">
-                        <i class="fa-solid fa-shield-halved fa-2x text-success"></i>
-                        <h6 class="fw-semibold mt-2">Keamanan Terjamin</h6>
-                    </div>
-                </div>
-
-            </div> --}}
             <div class="row g-3">
-                <div class="col-md-3"><img src="{{ asset('assets/images/fasilitas/1.jpg') }}" class="img-fluid rounded-3">
+
+
+                <div class="col-md-3 text-center">
+                    <img src="{{ asset('assets/images/fasilitas/1.jpeg') }}" class="img-fluid rounded-3 mb-2">
+                    <p class="fw-semibold mb-0">Ruang Kelas Playgroup</p>
                 </div>
-                <div class="col-md-3"><img src="{{ asset('assets/images/fasilitas/2.jpg') }}" class="img-fluid rounded-3">
+
+                <div class="col-md-3 text-center">
+                    <img src="{{ asset('assets/images/fasilitas/2.jpeg') }}" class="img-fluid rounded-3 mb-2">
+                    <p class="fw-semibold mb-0">Ruang Bermain</p>
                 </div>
-                <div class="col-md-3"><img src="{{ asset('assets/images/fasilitas/3.jpg') }}" class="img-fluid rounded-3">
+
+                <div class="col-md-3 text-center">
+                    <img src="{{ asset('assets/images/fasilitas/3.jpeg') }}" class="img-fluid rounded-3 mb-2">
+                    <p class="fw-semibold mb-0">Ruang Utama Kegiatan</p>
                 </div>
-                <div class="col-md-3"><img src="{{ asset('assets/images/fasilitas/4.jpg') }}" class="img-fluid rounded-3">
+
+                <div class="col-md-3 text-center">
+                    <img src="{{ asset('assets/images/fasilitas/4.jpeg') }}" class="img-fluid rounded-3 mb-2">
+                    <p class="fw-semibold mb-0">Ruang Kelas TK. A</p>
+                </div>
+
+                <div class="col-md-3 text-center">
+                    <img src="{{ asset('assets/images/fasilitas/5.jpeg') }}" class="img-fluid rounded-3 mb-2">
+                    <p class="fw-semibold mb-0">Ruang Kelas TK.B</p>
                 </div>
             </div>
         </div>
@@ -157,32 +151,32 @@
 
                 <div class="col-md-3 text-center">
                     <img src="{{ asset('assets/images/guru/3.jpg') }}" class="img-fluid rounded-3 mb-2">
-                    <p class="fw-semibold mb-0">Ibu Liani (Kepala Sekolah)</p>
+                    <p class="fw-semibold mb-0">Mrs.Liani (Kepala Sekolah)</p>
                 </div>
 
                 <div class="col-md-3 text-center">
                     <img src="{{ asset('assets/images/guru/2.jpg') }}" class="img-fluid rounded-3 mb-2">
-                    <p class="fw-semibold mb-0">Ibu Martini (Tata Usaha)</p>
+                    <p class="fw-semibold mb-0">Mrs.Martini (Tata Usaha)</p>
                 </div>
 
                 <div class="col-md-3 text-center">
                     <img src="{{ asset('assets/images/guru/1.jpg') }}" class="img-fluid rounded-3 mb-2">
-                    <p class="fw-semibold mb-0">Ms. Nata (Administrasi)</p>
+                    <p class="fw-semibold mb-0">Ms.Nata (Administrasi)</p>
                 </div>
 
                 <div class="col-md-3 text-center">
                     <img src="{{ asset('assets/images/guru/4.jpg') }}" class="img-fluid rounded-3 mb-2">
-                    <p class="fw-semibold mb-0">Ms. Sofie (Guru Playgroup)</p>
+                    <p class="fw-semibold mb-0">Mrs.Sofie (Guru Playgroup)</p>
                 </div>
 
                 <div class="col-md-3 text-center">
                     <img src="{{ asset('assets/images/guru/5.jpg') }}" class="img-fluid rounded-3 mb-2">
-                    <p class="fw-semibold mb-0">Ms. Lia (Guru TK A)</p>
+                    <p class="fw-semibold mb-0">Ms.Lia (Guru TK A)</p>
                 </div>
 
                 <div class="col-md-3 text-center">
                     <img src="{{ asset('assets/images/guru/6.jpeg') }}" class="img-fluid rounded-3 mb-2">
-                    <p class="fw-semibold mb-0">Ms. Ana (Guru TK B)</p>
+                    <p class="fw-semibold mb-0">Mrs.Ana (Guru TK B)</p>
                 </div>
             </div>
         </div>
