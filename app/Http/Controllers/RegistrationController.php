@@ -34,7 +34,7 @@ class RegistrationController extends Controller
 
                 'foto_ktp'         => 'nullable|image|mimes:jpg,jpeg,png|max:2048',
                 'foto_kk'          => 'nullable|image|mimes:jpg,jpeg,png|max:2048',
-                'foto_akte_lahir'          => 'nullable|image|mimes:jpg,jpeg,png|max:2048',
+                'foto_akta_lahir'          => 'nullable|image|mimes:jpg,jpeg,png|max:2048',
                 'pas_foto'         => 'nullable|image|mimes:jpg,jpeg,png|max:2048',
                 'bukti_transfer'   => 'nullable|image|mimes:jpg,jpeg,png|max:2048',
 
@@ -55,7 +55,7 @@ class RegistrationController extends Controller
 
                 'foto_ktp.image'          => 'Foto KTP harus berupa gambar.',
                 'foto_kk.image'           => 'Foto KK harus berupa gambar.',
-                'foto_akte_lahir.image'           => 'Foto Akte Lahir harus berupa gambar.',
+                'foto_akta_lahir.image'           => 'Foto Akte Lahir harus berupa gambar.',
                 'pas_foto.image'          => 'Pas foto harus berupa gambar.',
                 'bukti_transfer.image'    => 'Bukti transfer harus berupa gambar.',
 
@@ -91,7 +91,7 @@ class RegistrationController extends Controller
             $Registration->email = $request->email;
             $Registration->foto_ktp = $data['foto_ktp'] ?? $Registration->foto_ktp;
             $Registration->foto_kk = $data['foto_kk'] ?? $Registration->foto_kk;
-            $Registration->foto_akte_lahir = $data['foto_akte_lahir'] ?? $Registration->foto_akte_lahir;
+            $Registration->foto_akta_lahir = $data['foto_akta_lahir'] ?? $Registration->foto_akta_lahir;
             $Registration->pas_foto = $data['pas_foto'] ?? $Registration->pas_foto;
             $Registration->bukti_transfer = $data['bukti_transfer'] ?? $Registration->bukti_transfer;
             $Registration->keterangan = $request->keterangan;

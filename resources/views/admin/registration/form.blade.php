@@ -146,11 +146,11 @@
             </div>
             
             <div class="mb-3">
-                <label class="form-label">Foto Akte Lahir</label>
+                <label class="form-label">Foto Akta Lahir</label>
 
-                @if (isset($data['Registration']) && $data['Registration']->foto_akte_lahir)
+                @if (isset($data['Registration']) && $data['Registration']->foto_akta_lahir)
                     <div class="mb-2">
-                        <a href="{{ asset('storage/' . $data['Registration']->foto_akte_lahir) }}" target="_blank"
+                        <a href="{{ asset('storage/' . $data['Registration']->foto_akta_lahir) }}" target="_blank"
                             class="btn btn-sm btn-outline-primary">
                             Lihat KK
                         </a>
