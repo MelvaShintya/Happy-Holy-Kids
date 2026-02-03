@@ -2,7 +2,7 @@
 
 @section('content')
     @push('scripts')
-        @if(session('success'))
+        @if (session('success'))
             <script>
                 Swal.fire({
                     icon: 'success',
@@ -24,12 +24,25 @@
     </div>
 
     <div class="card mb-3 p-3">
-        <form method="GET" action="{{ route('registration.list') }}">
-            <input type="text" name="search" value="{{ request('search') }}" class="form-control"
-                placeholder="Cari nama siswa / orang tua...">
-        </form>
+        <form method="GET" action="{{ route('registration.list') }}" class="row g-2 mb-3 align-items-center">
+            <div class="col-md-4">
+                <input type="text" name="search" value="{{ request('search') }}" class="form-control"
+                    placeholder="Cari nama siswa / jenis kelamin">
+            </div>
 
-        {{-- <input type="text" class="form-control" placeholder="Cari nama siswa / orang tua..."> --}}
+            <div class="col-md-3">
+                <input type="date" name="start_date" id="start_date" value="{{ request('start_date', date('Y-m-d')) }}"
+                    class="form-control">
+            </div>
+
+            <div class="col-md-3">
+                <input type="date" name="end_date" id="end_date" value="{{ request('end_date', date('Y-m-d')) }}" class="form-control">
+            </div>
+
+            <div class="col-md-2">
+                <button type="submit" class="btn btn-primary w-100">Cari</button>
+            </div>
+        </form>
     </div>
 
     <div class="card shadow-sm">
@@ -78,7 +91,31 @@
 
     <nav class="mt-3">
         {{-- <div class="d-flex justify-content-center mt-3"> --}}
-            {{ $data['Registration']->links('pagination::bootstrap-5') }}
+        {{ $data['Registration']->links('pagination::bootstrap-5') }}
         {{-- </div> --}}
     </nav>
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/flatpickr/dist/flatpickr.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/flatpickr"></script>
+
+    <script>
+        flatpickr("#start_date", {
+            locale: "id",
+            altInput: true,
+            altFormat: "d-m-Y",
+            dateFormat: "Y-m-d",
+            yearSelectorType: "dropdown",
+            allowInput: true
+        });
+
+        flatpickr("#end_date", {
+            locale: "id",
+            altInput: true,
+            altFormat: "d-m-Y",
+            dateFormat: "Y-m-d",
+            yearSelectorType: "dropdown",
+            allowInput: true
+        });
+    </script>
+
 @endsection
