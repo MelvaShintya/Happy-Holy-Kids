@@ -175,4 +175,35 @@ class RegistrationController extends Controller
             'data-pendaftaran.xlsx'
         );
     }
+
+    public function report(Request $request)
+    {
+        // $Registration = new Registration;
+        // $data['Registration'] = $Registration->paginate(10);
+
+        $query = Registration::query();
+
+        // if ($request->filled('search')) {
+        //     $search = $request->search;
+
+        //     $query->where(function ($q) use ($search) {
+        //         $q->where('nama_siswa', 'like', "%{$search}%")
+        //             ->orWhere('jenis_kelamin', 'like', "%{$search}%")
+        //             ->orWhere('tanggal_lahir', 'like', "%{$search}%");
+        //     });
+        // }
+
+        if ($request->filled('start_date') && $request->filled('end_date')) {
+            $query->whereBetween('created_at', [
+                $request->start_date . ' 00:00:00',
+                $request->end_date . ' 23:59:59'
+            ]);
+        }
+
+        $data['Registration'] = $query->orderBy('id', 'desc')
+            ->paginate(10)
+            ->withQueryString();
+
+        return view('admin.report.list', ['data' => $data]);
+    }
 }

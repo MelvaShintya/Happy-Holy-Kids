@@ -11,6 +11,7 @@
         <div class="menu-label">Main Menu</div>
         <a href="{{ route('dashboard') }}" class="{{ request()->routeIs('dashboard') ? 'active' : '' }}"><i class="fa-solid fa-tachometer-alt"></i> Dashboard</a>
         <a href="{{ route('registration.list') }}" class="{{ request()->routeIs('registration.*') ? 'active' : '' }}"><i class="fa-solid fa-users"></i> Data Pendaftar</a>
+        <a href="{{ route('report.list') }}" class="{{ request()->routeIs('report.*') ? 'active' : '' }}"><i class="fa-solid fa-file"></i> Laporan</a>
 
         <hr>
 

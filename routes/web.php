@@ -55,6 +55,7 @@ Route::prefix('admin')->group(function () {
         Route::controller(RegistrationController::class)
             ->group(function ($registration) {
                 $registration->get('/pendaftaran', 'list')->name('registration.list');
+                $registration->get('/laporan', 'report')->name('report.list');
                 $registration->get('/pendaftaran/export', 'export')->name('registration.export');
                 $registration->get('/pendaftaran/form', 'form')->name('registration.form');
                 $registration->get('/pendaftaran/form/{id?}', 'form')->name('registration.form');
