@@ -42,6 +42,16 @@
                             <h5 class="fw-bold mb-3">Data Siswa</h5>
 
                             <div class="mb-3">
+                                <label class="form-label">kelas</label>
+                                <select class="form-select" name="kelas">
+                                    <option value="">-- Pilih --</option>
+                                    <option>PG</option>
+                                    <option>TK A</option>
+                                    <option>TK B</option>
+                                </select>
+                            </div>
+
+                            <div class="mb-3">
                                 <label class="form-label">Nama Lengkap Siswa</label>
                                 <input type="text" class="form-control" name="nama_siswa">
                             </div>
@@ -113,7 +123,8 @@
 
                             <div class="mb-3">
                                 <label class="form-label">Foto Akta Kelahiran</label>
-                                <input type="file" class="form-control" accept=".jpg,.jpeg,.png,.pdf" name="foto_akta_lahir">
+                                <input type="file" class="form-control" accept=".jpg,.jpeg,.png,.pdf"
+                                    name="foto_akta_lahir">
                             </div>
 
                             <div class="mb-4">
@@ -139,7 +150,8 @@
 
                             <div class="mb-3">
                                 <label class="form-label">Bukti Transfer DP</label>
-                                <input type="file" class="form-control" accept=".jpg,.jpeg,.png,.pdf" name="bukti_transfer">
+                                <input type="file" class="form-control" accept=".jpg,.jpeg,.png,.pdf"
+                                    name="bukti_transfer">
                             </div>
 
                             <div class="mb-4">

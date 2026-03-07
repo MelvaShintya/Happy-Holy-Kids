@@ -10,6 +10,7 @@ return new class extends Migration {
         Schema::create('registrations', function (Blueprint $table) {
             $table->id();
 
+            $table->enum('kelas', ['PG', 'TK A', 'TK B'])->nullable();
             $table->string('nama_siswa')->nullable();         
             $table->string('tempat_lahir')->nullable();
             $table->date('tanggal_lahir')->nullable();

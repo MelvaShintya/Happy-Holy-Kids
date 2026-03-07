@@ -36,13 +36,31 @@
             </div>
 
             <div class="col-md-3">
-                <input type="date" name="end_date" id="end_date" value="{{ request('end_date', date('Y-m-d')) }}" class="form-control">
+                <input type="date" name="end_date" id="end_date" value="{{ request('end_date', date('Y-m-d')) }}"
+                    class="form-control">
             </div>
 
             <div class="col-md-2">
                 <button type="submit" class="btn btn-primary w-100">Cari</button>
             </div>
         </form>
+    </div>
+
+    <div class="mb-3">
+        <a href="{{ route('registration.list', ['kelas' => 'PG'] + request()->except('page')) }}"
+            class="btn {{ request('kelas') == 'PG' ? 'btn-primary' : 'btn-outline-primary' }}">
+            PG
+        </a>
+
+        <a href="{{ route('registration.list', ['kelas' => 'TK A'] + request()->except('page')) }}"
+            class="btn {{ request('kelas') == 'TK A' ? 'btn-success' : 'btn-outline-success' }}">
+            TK A
+        </a>
+
+        <a href="{{ route('registration.list', ['kelas' => 'TK B'] + request()->except('page')) }}"
+            class="btn {{ request('kelas') == 'TK B' ? 'btn-warning' : 'btn-outline-warning' }}">
+            TK B
+        </a>
     </div>
 
     <div class="card shadow-sm">

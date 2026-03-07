@@ -21,6 +21,7 @@ class RegistrationController extends Controller
         }
 
         $request->validate([
+            'kelas'            => 'required|in:PG,TK A, TK B',
             'nama_siswa'       => 'required|string|max:100',
             'tempat_lahir'     => 'required|string|max:100',
             'tanggal_lahir'    => 'required|date',
@@ -80,6 +81,7 @@ class RegistrationController extends Controller
                     ->store('registration/' . $request->nama_siswa, 'public');
             }
         }
+        $Registration->kelas = $request->kelas;
         $Registration->nama_siswa = $request->nama_siswa;
         $Registration->tempat_lahir = $request->tempat_lahir;
         $Registration->tanggal_lahir = $request->tanggal_lahir;
@@ -131,6 +133,10 @@ class RegistrationController extends Controller
                 $request->start_date . ' 00:00:00',
                 $request->end_date . ' 23:59:59'
             ]);
+        }
+
+        if ($request->filled('kelas')) {
+            $query->where('kelas', $request->kelas);
         }
 
         $data['Registration'] = $query->orderBy('id', 'desc')
@@ -198,6 +204,10 @@ class RegistrationController extends Controller
                 $request->start_date . ' 00:00:00',
                 $request->end_date . ' 23:59:59'
             ]);
+        }
+
+        if ($request->filled('kelas')) {
+            $query->where('kelas', $request->kelas);
         }
 
         $data['Registration'] = $query->orderBy('id', 'desc')
