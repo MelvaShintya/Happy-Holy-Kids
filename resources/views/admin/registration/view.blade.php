@@ -5,6 +5,7 @@
 
     <div class="card p-4 mb-4">
         <h6 class="fw-bold">Data Siswa</h6>
+        <p><strong>Kelas:</strong> {{ $data['Registration']->kelas }}</p>
         <p><strong>Nama Siswa:</strong> {{ $data['Registration']->nama_siswa }}</p>
         <p><strong>Tanggal Lahir:</strong> {{ $data['Registration']->tempat_lahir }}, {{ \Carbon\Carbon::parse($data['Registration']->tanggal_lahir)->format('d-m-Y') }}</p>
         <p><strong>Jenis Kelamin:</strong> {{ $data['Registration']->jenis_kelamin }}</p>
