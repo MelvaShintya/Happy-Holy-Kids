@@ -38,6 +38,16 @@
 
             <div class="row g-3">
                 <div class="col-md-6">
+                    <label class="form-label">kelas</label>
+                    <select class="form-select" id="kelas" name="kelas">
+                        <option value="">-- Pilih --</option>
+                        <option value="PG">PG</option>
+                        <option value="TK A">TK A</option>
+                        <option value="TK B">TK B</option>
+                    </select>
+                </div>
+
+                <div class="col-md-6">
                     <label class="form-label">Nama Lengkap Siswa</label>
                     <input type="text" class="form-control" name="nama_siswa"
                         value="{{ old('nama_siswa', $data['Registration']->nama_siswa ?? '') }}">
@@ -217,9 +227,12 @@
     </form>
 
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/flatpickr/dist/flatpickr.min.css">
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/flatpickr"></script>
 
     <script>
+        $('#kelas option[value="<?=$data['Registration']->kelas ?? ''?>"]').prop('selected', true);
+
         flatpickr("#tanggal_lahir", {
             locale: "id",
             altInput: true,

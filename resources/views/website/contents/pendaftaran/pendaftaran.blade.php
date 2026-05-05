@@ -45,9 +45,9 @@
                                 <label class="form-label">kelas</label>
                                 <select class="form-select" name="kelas">
                                     <option value="">-- Pilih --</option>
-                                    <option>PG</option>
-                                    <option>TK A</option>
-                                    <option>TK B</option>
+                                    <option value="PG">PG</option>
+                                    <option value="TK A">TK A</option>
+                                    <option value="TK B">TK B</option>
                                 </select>
                             </div>
 

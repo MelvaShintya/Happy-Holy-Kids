@@ -21,7 +21,8 @@ class RegistrationController extends Controller
         }
 
         $request->validate([
-            'kelas'            => 'required|in:PG,TK A, TK B',
+            // 'kelas'            => 'required|in:PG,TK A, TK B',
+            'kelas' => 'required|in:PG,TK A,TK B',
             'nama_siswa'       => 'required|string|max:100',
             'tempat_lahir'     => 'required|string|max:100',
             'tanggal_lahir'    => 'required|date',
